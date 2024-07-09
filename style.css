@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(to bottom, transparent 1px, #98c5f2 1px), linear-gradient(to left, transparent 1px, #888 1px);
+    background-size: 100% 10px, 10px 100%;
+    background-repeat: repeat-y, repeat-x;
+    font-family: Arial, sans-serif;
+    color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+    max-width: 400px;
+    width: 100%;
+  }
+
+  #loginForm input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0 0 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #loginForm #camera-feed {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #loginForm button {
+    /* display: block; */
+    width: 30%;
+    padding: 10px;
+    margin: 15px 0 0 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  #loginButton {
+    background-color: #007bff;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  #logoutButton {
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  #workflow {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  /* button {
+          padding: 5px 10px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 3px;
+          cursor: pointer;
+      } */
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Additional styling for capturing photo */
+
+  #capture-btn {
+    background-color: #28a745;
+    color: white;
+  }
+
+  /* Styling for form labels */
+
+  label {
+    display: block;
+    font-weight: bold;
+  }
+
+  /* Center align the form elements */
+
+  #loginForm label,
+  #loginForm input,
+  #loginForm video {
+    display: block;
+    margin: 7px auto;
+    text-align: center;
+  }
+
+  #loginForm #capture-btn {
+    display: block;
+    margin: 7px auto;
+  }
+
+  h1 {
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+  }

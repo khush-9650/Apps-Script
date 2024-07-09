@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form id="loginForm">
+        <h1>Login logout form </h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="workflow">Workflow:</label>
+        <select id="workflow" name="workflow" required>
+            <option value="Google">Google</option>
+            <option value="Meta"> Meta</option>
+            <option value="Microsoft">Microsoft</option>
+        </select>
+
+        <video id="camera-feed" autoplay></video>
+        <button type="button" id="capture-btn">Capture Photo</button>
+        <button type="button" id="loginButton">Login</button>
+        <button type="button" id="logoutButton">Logout</button>
+    </form>
+
+    <script src="./Code.gs" defer></script>
+    <script src="./raw.gs" defer></script>
+</body>
+
+</html>
